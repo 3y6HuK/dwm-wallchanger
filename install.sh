@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+cd ~/ && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 
 yay -Sy python-pywal python-pywalfox xdotool kitty feh flameshot atool imagemagick \ 
 perl-image-exiftool ueberzug alsa-utils dmenu rofi rofi-themes-collection-git xorg-xsetroot \
@@ -26,4 +26,4 @@ cd ~/.dwm/slstatus && sudo make clean install
 chsh -s /bin/zsh
 sudo chsh -s /bin/zsh
 
-reboot
+startx
