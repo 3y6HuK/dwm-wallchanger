@@ -3,7 +3,7 @@ import json
 
 end_list = []
 
-with open('$HOME/.cache/wal/colors.json') as file:
+with open('/home/user/.cache/wal/colors.json') as file:
     stock = json.load(file)
 
 k1 = stock['colors']['color0']
@@ -71,7 +71,7 @@ for event in list9:
     string = str(event) + str(k9)
     end_list.append(string)
 
-file = open("$HOME/.Xresources", "w")
+file = open("/home/user/.Xresources", "w")
 
 for end_str in end_list:
 
