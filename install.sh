@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo pacman -Sy git curl --noconfirm
-
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 
 yay -Syu python-pywal python-pywalfox xdotool kitty feh flameshot atool imagemagick \ 
