@@ -6,7 +6,7 @@ yay -Syu python-pywal python-pywalfox xdotool kitty feh flameshot atool imagemag
 perl-image-exiftool ueberzug alsa-utils dmenu rofi rofi-themes-collection-git xorg-xsetroot \
 twmn-git ranger pipewire pipewire-alsa pipewire-jack pipewire-pulse pavucontrol pcmanfm \
 numlockx betterlockscreen ttf-jetbrains-mono-nerd ttf-unifont ttf-liberation ttf-dejavu \
-libev uthash libconfig telegram-desktop obs-studio thunderbird \
+libev uthash libconfig telegram-desktop obs-studio thunderbird libxinerama\
 ttf-nerd-fonts-symbols cppcheck neovim meson ninja picom-simpleanims-git \
 whatsie polkit-gnome tokyonight-gtk-theme-git kora-icon-theme nwg-look zsh \
 zsh-syntax-highlighting zsh-autosuggestions  oh-my-zsh-git zsh-fast-syntax-highlighting-git \
