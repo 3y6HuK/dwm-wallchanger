@@ -23,6 +23,8 @@ sudo chmod +x /usr/local/bin/startdwm.sh
 cd ~/.dwm && sudo make clean install
 cd ~/.dwm/slstatus && sudo make clean install
 
+cd ~/dwm-wallchanger && ./change_name.sh
+
 chsh -s /bin/zsh
 sudo chsh -s /bin/zsh
 
