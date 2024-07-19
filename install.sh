@@ -13,15 +13,15 @@ zsh-syntax-highlighting zsh-autosuggestions  oh-my-zsh-git zsh-fast-syntax-highl
 imlib2 npm make cmake btop gamemode icoutils firefox firefox-adblock-plus firefox-i18n-ru \
 discord cherrytree paccache-hook grub-hook megasync-bin --noconfirm
 
-cp -r .dwm ../
-cp -r .zshrc ../
-cp -r .config ../
-sudo cp startdwm.sh /usr/local/bin/
-sudo echo "exec /usr/local/bin/startdwm.sh" > .xinitrc
+cp -r ~/dwm-wallchanger/.dwm ~/
+cp -r ~/dwm-wallchanger/.zshrc ~/
+cp -r ~/dwm-wallchanger/.config ~/
+sudo cp ~/dwm-wallchanger/startdwm.sh /usr/local/bin/
+sudo echo "exec /usr/local/bin/startdwm.sh" > ~/.xinitrc
 sudo chmod +x /usr/local/bin/startdwm.sh
 
-cd $HOME/.dwm && sudo make clean install
-cd $HOME/.dwm/slstatus && sudo make clean install
+cd ~/.dwm && sudo make clean install
+cd ~/.dwm/slstatus && sudo make clean install
 
 chsh -s /bin/zsh
 sudo chsh -s /bin/zsh
