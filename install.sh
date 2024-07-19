@@ -2,7 +2,7 @@
 
 git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 
-yay -Syu python-pywal python-pywalfox xdotool kitty feh flameshot atool imagemagick \ 
+yay -Sy python-pywal python-pywalfox xdotool kitty feh flameshot atool imagemagick \ 
 perl-image-exiftool ueberzug alsa-utils dmenu rofi rofi-themes-collection-git xorg-xsetroot \
 twmn-git ranger pipewire pipewire-alsa pipewire-jack pipewire-pulse pavucontrol pcmanfm \
 numlockx betterlockscreen ttf-jetbrains-mono-nerd ttf-unifont ttf-liberation ttf-dejavu \
