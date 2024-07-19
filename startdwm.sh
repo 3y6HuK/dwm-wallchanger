@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #wal -R & 
-$HOME/.dwm/dwmcripts/walls.sh & 
+$HOME/.dwm/dwmscripts/walls.sh & 
 picom --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffness-tag-change 500 &
 slstatus &
 twmnd &
