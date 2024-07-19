@@ -4,4 +4,4 @@ Greetings, friends. This is my attempt to assemble the DWM environment in such a
 
 To enable the automatic image change mode, edit the file along the way `$HOME/.dwm/dwmscripts/walls.sh` by removing the "#" in lines 6-7 and set this character at the beginning of line 8. In line 13 (sleep), you can specify the time to change the wallpaper.
 
-Run the command `mkdir -p $HOME/.dwm/wallpapers` and download the wallpaper using this path.
+
