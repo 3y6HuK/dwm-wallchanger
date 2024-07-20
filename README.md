@@ -19,6 +19,5 @@ And more.
 Remember, this will overwrite your previous configuration.
 
 ```
-git clone https://github.com/3y6HuK/dwm-wallchanger.git
-cd dwm-wallchanger && ./install.sh
+git clone https://github.com/3y6HuK/dwm-wallchanger.git && cd dwm-wallchanger && ./install.sh
 ```
