@@ -26,7 +26,7 @@ git clone https://github.com/3y6HuK/dwm-wallchanger.git && cd dwm-wallchanger &&
 If you do not want the computer to go into sleep mode, enter: 
 
 ```
-sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target`
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
 
 **ATTENTION! This command is not in the installation script.** But it can be useful if the environment freezes after coming out of sleep mode. I have not yet found out the exact cause of this phenomenon. Perhaps this is due to the fault of one of the patches. Or because of picom.
