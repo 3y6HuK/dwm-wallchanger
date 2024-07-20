@@ -18,6 +18,8 @@ And more.
 # Installation
 Remember, this will overwrite your previous configuration.
 
+**ATTENTION! If suddenly the environment will freezes, put the "#" in `/usr/local/bin/startdwm.sh` before the word picom and let me know. Then I will test other versions of picom and add their installation to my script and configs.**
+
 ```
 git clone https://github.com/3y6HuK/dwm-wallchanger.git && cd dwm-wallchanger && ./install.sh
 ```
