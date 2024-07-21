@@ -1,7 +1,7 @@
 #!/bin/sh
 
 $HOME/.dwm/dwmscripts/walls.sh & 
-picom --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffness-tag-change 500 &
+picom --animations --animation-window-mass 0.5 --animation-stiffness-tag-change 500 &
 twmnd &
 slstatus &
 #dwmblocks &
