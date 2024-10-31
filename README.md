@@ -10,7 +10,7 @@ The basic set of packages and dependencies will be installed by the script. I us
 - kitty
 - rofi
 - MegaSync
-- Whatsie (Unofficial WhatsApp client)
+- whatsapp-for-linux (Unofficial WhatsApp client)
 - Telegram
 
 And more.
