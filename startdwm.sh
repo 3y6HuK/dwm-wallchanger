@@ -13,7 +13,7 @@ export XCURSOR_SIZE=32 # default is 24
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 telegram-desktop &
 megasync &
-discord &
+wasistlos &
 exec dbus-launch --exit-with-session --sh-syntax &
 
 
