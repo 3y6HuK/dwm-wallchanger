@@ -67,7 +67,7 @@ source ~/.cache/wal/colors-tty.sh
 
 HISTCONTROL=ignorespace
 
-fastfetch 
+fastfetch
 df -h /
 alias ex='export DISPLAY=:0.0'
 alias pm='sudo pm-suspend'
@@ -80,6 +80,8 @@ alias rf='sudo reboot -f'
 alias rec='ffmpeg -f alsa -i pulse -f x11grab -r 25 -s 1920x1080 -i :0+0,60 -acodec pcm_s16le -vcodec libx264 -threads 0 output.mkv'
 alias yun='yay -Syu --noconfirm'
 alias yu='yay -Syu'
+alias gt='gpgtar_v3.sh'
+alias dssh='delete_line_from_file.sh'
 alias dis='xset dpms force standby'
 alias ipi='curl smart-ip.net/myip'
 alias ipmy='curl eth0.me'
@@ -90,15 +92,19 @@ alias tcstop='sudo torctl stop'
 alias swap='sudo swapoff -a && sudo swapon -a && systemctl start /dev/zram0'
 alias mrec='arecord -f cd output_stereo.wav'
 alias ipi='curl smart-ip.net/myip'
-alias wtr='wget -O - wttr.in/"Vladivostok" -q'
+alias wtr='wget -O - wttr.in/"Khabarovsk" -q'
 alias yt='ytfzf -t'
 alias nano='sudo nano'
+alias list="qlist -I | grep"
+alias kino='sh /home/freedomsky/INSTALL/Torrserver/kino_test.sh'
 alias sr='sudo ranger'
 alias rr='ranger'
 alias pw='pywalfox update'
 alias kb='setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle'
 alias v='nvim'
 alias sv='sudo nvim'
+alias m='micro'
+alias sm='sudo micro'
 
 # Очистка терминала
 alias c='clear'
@@ -106,6 +112,12 @@ alias c='clear'
 # Обновление системы
 
 alias up='sudo pacman -Syyuu'
+
+#Для VPN torctl (ставится из репозитория blackarch)
+
+alias tstart='sudo torctl start' 
+alias tstop='sudo torctl stop' 
+alias trestart='sudo torctl restart' 
 
 #Обновление grub
 alias upgrub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
@@ -137,10 +149,11 @@ alias sshoff='systemctl stop sshd'
 alias ref='sudo reflector -c ru,jp,cn,hk,kr -p https --sort rate -a 12 -l 10 --save /etc/pacman.d/mirrorlist'
 alias upm='rankmirrors -t /etc/pacman.d/mirrorlist'
 
-alias kws='sh "$HOME/MEGA/INSTALL/KillWineServer.sh"'
+alias kws='sh "/home/freedomsky/MEGA/INSTALL/KillWineServer.sh"'
 
 #Запись консоли
 alias arec='asciinema rec'
 
 #Установка ядра Xanmod
-alias xanmod='yay -S linux-xanmod-bin'
+alias xanmod='yay -S linux-xanmod linux-xanmod-headers'
+
